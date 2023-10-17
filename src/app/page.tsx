@@ -1,5 +1,11 @@
+import Hero from '@/components/Hero';
+
 const Home = () => {
-  return <h1 className="text-5xl">Next Price</h1>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default Home;
